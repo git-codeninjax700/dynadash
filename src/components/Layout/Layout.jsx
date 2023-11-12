@@ -34,17 +34,6 @@ const Layout = () => {
             <input type="text" placeholder="Search" />
           </div>
 
-          <div className={css.profile}>
-            <img src="https://avatars.githubusercontent.com/u/98453845?s=48&v=4" alt="person image" />
-            <div className={css.details}>
-              <span>Rampranav K</span>
-              <span>rampranav.k@outlook.com</span>
-            </div>
-          </div>
-
-
-        </div>
-
 
         <div className={css.content}>
           <Outlet />
