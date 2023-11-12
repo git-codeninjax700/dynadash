@@ -34,6 +34,16 @@ const Layout = () => {
             <input type="text" placeholder="Search" />
           </div>
 
+          <div className={css.profile}>
+            <div className={css.details}>
+              <span>Admin FlowDynamiX</span>
+              <span>admin@flowdynamix.com</span>
+            </div>
+          </div>
+
+
+        </div>
+
 
         <div className={css.content}>
           <Outlet />
