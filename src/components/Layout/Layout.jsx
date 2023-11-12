@@ -35,8 +35,9 @@ const Layout = () => {
           </div>
 
           <div className={css.profile}>
-            <div className={css.details}>
-              <span>Logged with Supabase</span>
+          <img src="/public/Mongo.png" alt="person image" />  
+          <div className={css.details}>
+              <span>Logged with MongoDB</span>
               <span>Production Mode</span>
             </div>
           </div>
