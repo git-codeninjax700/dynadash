@@ -36,8 +36,8 @@ const Layout = () => {
 
           <div className={css.profile}>
             <div className={css.details}>
-              <span>Admin FlowDynamiX</span>
-              <span>admin@flowdynamix.com</span>
+              <span>Logged with Supabase</span>
+              <span>Production Mode</span>
             </div>
           </div>
 
