@@ -34,10 +34,9 @@ const Layout = () => {
             <input type="text" placeholder="Search" />
           </div>
 
-          <div className={css.profile}>
-          <img src="/public/Mongo.png" alt="person image" />  
+          <div className={css.profile}>  
           <div className={css.details}>
-              <span>Logged with MongoDB</span>
+              <span>Logged with Supabase</span>
               <span>Production Mode</span>
             </div>
           </div>
